@@ -102,6 +102,7 @@ public static void listAllAttributes(Element element) {
 	public static WebElement expandRootElement(WebElement element) {
 		WebElement ele = (WebElement) ((JavascriptExecutor) driver)
                 .executeScript("return arguments[0].parentNode",element);
+		//return webelement
 		return ele;
 	}
 	
