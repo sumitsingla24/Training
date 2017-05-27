@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Training]">
+  <test name="Selenium Training Test1(failed)">
+    <classes>
+      <class name="com.seleniumtraining.Lecture2_WebElements">
+        <methods>
+          <include name="getscreenshot"/>
+          <include name="closeBrowser"/>
+          <include name="clickSearch"/>
+          <include name="launchApplication"/>
+          <include name="searchItem"/>
+        </methods>
+      </class> <!-- com.seleniumtraining.Lecture2_WebElements -->
+    </classes>
+  </test> <!-- Selenium Training Test1(failed) -->
+</suite> <!-- Failed suite [Selenium Training] -->

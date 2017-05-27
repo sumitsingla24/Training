@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.seleniumtraining.Lecture2_WebElements">
+        <methods>
+          <include name="Slider"/>
+          <include name="getscreenshot"/>
+          <include name="closeBrowser"/>
+          <include name="clickSearch"/>
+          <include name="launchApplication"/>
+          <include name="Resizable"/>
+          <include name="dragAndDrop"/>
+          <include name="searchItem"/>
+        </methods>
+      </class> <!-- com.seleniumtraining.Lecture2_WebElements -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

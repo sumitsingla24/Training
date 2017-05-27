@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium Training" verbose="1" >
+  <test name="Selenium Training Test1" >
+  <!-- <groups>
+  <run>
+  <include name ="high"/>
+  </run>
+  </groups> -->
+    <classes>
+      <class name="com.seleniumtraining.Lecture2_WebElements">
+      <methods>
+        <include name="searchItem" />
+        <include name="clickSearch" />
+        <exclude name="dragAndDrop" />
+        <include name="Resizable" />
+        <exclude name="Slider" />
+        <exclude name="browserNavigation" />
+      </methods>
+      </class>
+     <!--  <class name="com.seleniumtraining.Lecture3_TestNGAnnotations"/> -->
+    </classes>
+ </test>
+</suite>
