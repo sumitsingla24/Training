@@ -40,7 +40,7 @@ public class DeleteMe {
 		String[] datesplit = (String[])dateLabel.getText().split(" ");
 		// Create object of SimpleDateFormat class and decide the format
 		 DateFormat dateFormat = new SimpleDateFormat("dd MMM yyyy HH:mm");
-		 //New Comment
+		 //Comments Changed
 		 //get current date time with Date()
 		 Date date = new Date();
 		 
